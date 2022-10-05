@@ -1,0 +1,45 @@
+body {
+    font-size: 18px;
+    line-height: 1,5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header, nav, main, footer {
+    margin: 5px auto;
+    max-width: 1280px;
+}
+
+header {
+    background-color: firebrick;
+    color: yellow;
+    text-align: center;
+    margin: 15px auto;
+    padding: 1.5rem auto;
+    border: 1px black;
+    @media screen and (min-width: 30em) {
+        
+    }
+}
+
+
+p img {
+    image-orientation: left;
+    margin: 5px auto;
+    border: 5 px solid black;
+}
+main {
+    
+    text-align: left;
+    background-color: beige;
+    margin: 10px auto;
+    padding: 1.5rem auto;
+    border: 1px solid black;
+}
+footer {
+    background-color: firebrick;
+    color: yellow;
+    text-align:  left;
+    margin: 10px auto;
+    padding: 1.0rem;
+    border: 1px solid black;
+}
