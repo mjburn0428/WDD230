@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for Point of the Mountain Chamber of Commerce Site">
+    <title>Herriman Chmaber of Commerece</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/menu.js"></script>
+</head>
+<body>
+<!--Header-->
+    <header>
+        <img id="headerLogo" src="images/coclogo.jpg" alt="Herriman Chamber of Commerce logo">
+        <section id="siteTitle">
+        <h1>Herriman Chamber of Commerce</h1>
+        </section>
+    <!--Social icons-->
+    <ul class='social'>
+        <li><a href="facebook.com"><img src="images/facebook.png" alt="facebook link" class="social"></a></li>
+        <li><a href="instagram.com"><img src="images/instagram.png" alt="instagram link" class="social"></a></li>
+        <li><a href="youtube.com"><img src="images/youtube.png" alt="youtube link" class="social"></a></li>
+    </ul>
+    </header>
+
+<!--Navigation-->
+    <nav class="topnav">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a class="hamburger" href=#>Menu</a></li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Calendar</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Spotlight</a></li>
+        </ul>
+    </nav>
+
+<!--Today's date-->
+    <p id="dateSpan">Today's date is: 
+    <span id="today"></span>
+    </p>      
+
+<!--Main Content-->
+    <main>
+        <section id="hero">
+            <p>Herriman Hero of the month</p>
+        </section>
+        <section id="event">
+            <p>Event</p>
+        </section>
+        <section id="weather">
+            <p>Weather</p>
+        </section>
+        <section id="news">
+            <p>News Release</p>
+        </section>
+        <section id="spotlight">
+            <p id="spot1">Spotlight 1</p>
+            <p id="spot2">Spotlight 2</p>
+            <p id="spot3">Spotlight 3</p>
+        </section>
+        <section id="join">
+            <p>Join</p>
+        </section>        
+    </main>
+
+<!--Footer-->
+    <footer>
+        <!--Class information-->
+        <section class="contactInfo">
+            <img src="images/coclogo.jpg" alt="Herriman Chamber of Commerce">
+            <section id="address">
+                <h2 class="address"> Herriman Chamber of Commerce</h2>
+                <p>5219 West Armada Way</p>
+                <p>Herriman, UT 84096</p>
+            </section>
+            <section id="contact">
+                <p>email@herrimancoc.gov</p>
+                <p>(801) 555-5555</p>
+                <p>&#128205; Location Map</p>
+            </section>
+
+        </section>
+        <hr>
+        <section class="classInfo">
+            <p>&copy; <span id="year"></span><span> Point of the Mountain Chamber</p>
+            <p>Joe Burner</p>
+            <p>WDD 230 Project</p>
+            <p>Last Updated: <span id="lastUpdate"></span></p>
+        </section>
+    </footer>
+</body>
+</html>
