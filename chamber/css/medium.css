@@ -5,14 +5,14 @@
             grid-template-rows: repeat(5, auto);
         }
     header .logo img {       
-        min-width: 80px;        
+        min-width: 100px;        
     }
     .headings1{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .headings2{
         font-size: 1rem;
-        margin-top: -.8rem;
+        margin-top: 0rem;
     }
     #hamburgerBtn {
         text-align: right;
@@ -21,10 +21,12 @@
     .hero{
         grid-row:1;
         grid-column: 1/4;
+        font-size: large;
     }
     .event{
         grid-row:5;
         grid-column: 1/3;
+        font-size: large;
     }
     .weather{
         grid-row: 5;
@@ -34,6 +36,7 @@
     .news{
         grid-row:2;
         grid-column: 1/4;
+        font-size: large;
     }
 
     .spotlight{
@@ -51,7 +54,7 @@
         }
 
 footer {
-    text-align: left;    
+    text-align: center;    
     font-size: 100%;
     display: grid;    
     grid-template-columns: .5fr 2fr 1.5fr;    

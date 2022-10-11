@@ -15,12 +15,13 @@
     header {
         display: grid;
         grid-template-columns: .8fr 1.2fr 2fr .5fr .5fr;
-        grid-template-rows: repeat(3, auto)
+        grid-template-rows: repeat(3, auto);
+        font-size: large;
         
     }
     .headings1 {
-        font-size: 2rem;
-        margin-top: -.4rem;
+        font-size: 1.28rem;
+        margin-top: 0rem;
        
     }
     
@@ -76,11 +77,13 @@
     .hero {
         grid-row: 1/3;
         grid-column: 2;
+        font-size: large;
     }
 
     .event {
         grid-row: 1;
         grid-column: 1;
+        font-size: large;
 
     }
 
@@ -92,6 +95,7 @@
     .news {
         grid-row: 3;
         grid-column: 2;
+        font-size: large;
     }
 
     .spotlight {
@@ -104,6 +108,7 @@
         display: block;
         grid-row: 3;
         grid-column: 1;
+        font-size: large;
     }
     #spot3{
         display: block;
@@ -113,13 +118,14 @@
         display: none;
     }
     footer {
-        text-align: left;
-        font-size: 100%;
+        text-align: center;
+        font-size: 125%;
         display: grid;
         grid-template-columns: .5fr 2fr 1.5fr;
         column-gap: 10px;
         margin-left: 1rem;
         margin-right: 1rem;
+        place-items: center;
     }
     
     footer>div {
@@ -134,7 +140,7 @@
     }
     
     footer .logo img {
-        max-width: 70%;
+        max-width: 100%;
         min-width: 100px;
         margin-left: 1rem;
     }
