@@ -4,32 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Book of Mormon Favorite Chapters" />
+    <title>BOM Favorites</title>
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/list.js" defer></script>
-    <title>Book of Mormon - Top 25</title>
-    <link rel="shortcut icon" href="images/favicon.jpg">
-    <style>
-      li {
-        margin-bottom: 10px;
-      }
-
-      li button {
-        font-size: 8px;
-        margin-left: 20px;
-        color: rgb(155, 151, 151);
-      }
-    </style>
   </head>
   <body>
-    <h1>Book of Mormon - Top 25</h1>
+    <h1>📘 Book of Mormon - Top 25</h1>
     <main>
-      <div>
-        <label for="item">Enter a Book and Chapter:</label>
-        <input type="text" name="item" id="item" />
-        <button>Add Chapter</button>
+      <div class="input">
+        <label
+          >Enter Book and Chapter<br />
+          <input type="text" id="favchap" placeholder="Alma 5" required
+        /></label>
+        <button type="submit">Add Chapter</button>
       </div>
-
-      <ul></ul>
+      <div class="listcontainer">
+        <ul class="list"></ul>
+      </div>
     </main>
   </body>
 </html>
