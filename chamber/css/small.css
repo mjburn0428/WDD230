@@ -1,14 +1,16 @@
 :root {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
     --main: rgba(37, 124, 139, 0.836);
-    --mainlight: rgb(17, 124, 185);
+    --mainlight: rgb(11, 108, 156);
     --headers: rgb(255, 255, 255);
-    --attention: #ac6305;
-    --links: #e70e0e;
-    --visited: #000000;
-    --text1: #fcfcfc;
-    --back: #035c97;
-    --color3: rgb(0, 0, 0);
-    --color7: rgb(13, 93, 133);
+    --attention: #ffffff;
+    --links: #ffffff;
+    --visited: #ffffff;
+    --text1: #ffffff;
+    --back: #0a5281;
+    --color3: rgb(255, 247, 247);
+    --color7: rgb(2, 1, 1);
 
     color: var(--text1);
 
@@ -47,6 +49,7 @@ body {
 
 
 nav ul {
+    color: white;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -105,11 +108,11 @@ header .logo img {
     flex-direction: column;
 }
 .headings1 {
-    font-size: 1rem;
+    font-size: 0.5rem;
     margin-top: -.4rem;
 }
  .headings2{    
-    font-size: 1rem;
+    font-size: 0.5rem;
     margin-top: 0rem;
  }
 .social{   
@@ -153,7 +156,7 @@ margin-right: .5rem;
     padding: .2rem 0;
     background-color: var(--mainlight);
     color: var(--headers);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 
@@ -169,7 +172,7 @@ margin-right: .5rem;
     display: block;
     grid-row: 3;
     grid-column: 1;
-    font-size: large;
+    font-size: 1.0rem;
 }
 .spot a:link{
 color: var(--main);
@@ -188,7 +191,7 @@ color: var(--main);
 footer{
     text-align: center;
     background-color: var(--mainlight);
-    font-size: large;
+    font-size: 1.0rem;
     place-items: center;
     
 }
@@ -205,6 +208,7 @@ padding-top:.3rem;
 }
 footer .address{
 margin-top:0rem;
+font-size: 1.0rem;
 }
 
 footer .address2{
@@ -213,17 +217,19 @@ margin-top:-1rem;
 
 footer .phone{
     margin-top: 0rem;
+    font-size: 1.0rem;
 }
 footer .map{
     margin-top: 0rem;
+    font-size: 1.0rem;
 }
 footer .seperator {
     display: none;
 }
 .about{
-    padding-top: 1.3rem;
+    padding-top: 1.0rem;
     border-top: var(--headers) solid 1px;
-    margin:0 1rem;
+    margin:0, 1rem;
 }
 
 .about > *{
@@ -232,6 +238,7 @@ footer .seperator {
 }
 #last-update{
     padding-bottom: .5rem;
+    font-size: 0.8rem;
 }
     .discover{
         display: flex;
@@ -246,4 +253,3 @@ footer .seperator {
         padding: 1rem;
     }
   
-   
