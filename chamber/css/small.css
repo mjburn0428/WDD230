@@ -226,7 +226,7 @@ footer .seperator {
 .about{
     padding-top: 1.0rem;
     border-top: var(--headers) solid 1px;
-    margin:0, 1rem;
+    margin: 0,1rem;
 }
 
 .about > *{
