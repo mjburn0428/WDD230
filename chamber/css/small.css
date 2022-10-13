@@ -158,15 +158,12 @@ margin-right: .5rem;
     color: var(--headers);
     font-size: 1.2rem;
 }
-
-
 .container div {
     background-color: var(--back);
     padding: .5rem;  
   
     margin: 1rem;
 }
-
 
 .join {
     display: block;
