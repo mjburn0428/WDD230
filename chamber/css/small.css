@@ -8,7 +8,7 @@
     --links: #ffffff;
     --visited: #ffffff;
     --text1: #ffffff;
-    --back: #0a5281;
+    --back: #044169;
     --color3: rgb(255, 247, 247);
     --color7: rgb(2, 1, 1);
 
@@ -157,6 +157,7 @@ margin-right: .5rem;
     background-color: var(--mainlight);
     color: var(--headers);
     font-size: 1.2rem;
+    max-width: 100%
 }
 .container div {
     background-color: var(--back);
