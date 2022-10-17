@@ -87,6 +87,13 @@ body{
       grid-column: 2;
       font-size: 1.0rem;
   }
+  .hero > img {
+    max-width: none;
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    overflow: hidden;
+  }
 
   .event {
       grid-row: 1;

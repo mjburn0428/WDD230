@@ -165,27 +165,50 @@ margin-right: .5rem;
   
     margin: 1rem;
 }
-
-.join {
-    display: block;
-    grid-row: 3;
-    grid-column: 1;
-    font-size: 1.0rem;
-}
-.spot a:link{
-color: var(--main);
-}
-.spot a:visited {
-    color: var(--main);
-}
-.spot a:hover {
-    background-color: var(--headers);
-}
-
-#spot3{
+.attention button {
     display: none;
-}
+  }
+  .attention button.show {
+    display: inline-block;
+    margin: 0.5em;
+  }
+  .attention {
+    border: none;
+    text-align: center;
+  }
 
+  .join {
+    display: none;
+  }
+  .join button {
+    background-color: var(--mainlight);
+    color: var(--color6);
+    font-size: 2rem;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    box-shadow: 10px 5px 5px rgb(124, 121, 121);
+  }   
+  .spot a:link{
+    color: var(--main);
+    }
+    .spot a:visited {
+        color: var(--main);
+    }
+    .spotlight > div {
+        min-width: 15vw;
+        border: 0.2em solid var(--color4);
+        margin: 1vh;
+        padding: 2vh;
+        text-align: center;
+      }
+    .spot a:hover {
+        background-color: var(--headers);
+    }
+    
+    #spot3{
+        display: none;
+    }
 footer{
     text-align: center;
     background-color: var(--mainlight);
