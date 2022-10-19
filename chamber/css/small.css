@@ -1,7 +1,7 @@
 :root {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    --main: rgba(37, 124, 139, 0.836);
+    --main: rgba(25, 122, 139, 0.836);
     --mainlight: rgb(11, 108, 156);
     --headers: rgb(255, 255, 255);
     --attention: #ffffff;
@@ -83,27 +83,28 @@ header footer{
 }
 header{
     display: grid;
+    margin-left: 2rem;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, auto);    
     
 }
 
-header .logo{
+.logo{
    margin-left: 1rem;
 }
 
-header .logo img {
-  max-width: 100%;
-  min-width: 100px;
-  grid-row:1/3;
+.logo img {
+  max-width: 190px;
+  grid-row:2/3;
   grid-column:1;
 }
 
 .headings{
     grid-row:1/3;
     grid-column: 2;
+    font-size: 2.5em;
     margin-left: 1rem;
-    margin-top: .5rem;
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
 }
@@ -218,18 +219,17 @@ footer{
 }
 
 footer .logo img{
-    max-width: 100%;
     max-width: 100px;
-    margin-top: 1rem;
+    margin-left: 1rem;
 }
 footer .logo-label{
-margin-top:0;
+margin-left:-2.0rem;
 padding-top:.3rem;
 
 }
 footer .address{
-margin-top:0rem;
-font-size: 1.0rem;
+margin-left:-2.0rem;
+font-size: 1.2rem;
 }
 
 footer .address2{

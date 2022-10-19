@@ -7,7 +7,6 @@
     <meta name="description" content="Herriman Chamber of Commerce" />
     <title>Herriman Chamber of Commerce</title>
     <link rel="shortcut icon" href="images/favicon.jpg">
-    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
@@ -62,16 +61,16 @@
           <div class="attention"><button id="banner"></button></div>
           <h2>Welcome to Herriman</h2>
           <picture>
-            <img src="images/Herriman-city.png" alt="Herriman City Hall" width= 700 />
+            <img src="images/Herriman-city.png" alt="Herriman City Hall" width= 500px />
           </picture>
           <p>Welcome to City of Herriman, Utah Chamber of Commerce page. Here you will find useful information on events and activities and employment Opportunities within Herriman town limits.</p>
           <p>We invite you to check us out and see the daily events happening in our community and within the town of Herriman.</p>
           <picture>
-            <img src="images/herriman-city-hall.webp" alt="Herriman City Hall Park" width= 700 />
-            <p>Herriman City Hall is where you will find all the public offices for the city of Herriman.</p>
+            <img src="images/herriman-city-hall.webp" alt="Herriman City Hall Park" width= 500px />
           </picture>
+            <p>Herriman City Hall is where you will find all the public offices for the city of Herriman.</p>
           <picture>
-            <img src="images/herriman-overview.webp" alt="Herriman overview" width= 700 />
+            <img src="images/herriman-overview.webp" alt="Herriman overview" width= 500px />
           </picture>
           <p>Herriman city overview. We have see a lot of new incoming residents moving to Herriman Utah. Within just 2 miles of shopping and dining, Herriman is sure growing.</p>
         </div>
@@ -79,11 +78,11 @@
           <h2>Herriman Happenings</h2>
           <picture>
             <img
-              src="images/black_ridge.png" alt="Black Ridge" width= 500/>
+              src="images/black_ridge.png" alt="Black Ridge" width= 250px/>
           </picture>
           <p> Black Ridge Resoivor. Come out for a fun community BBQ on Saturday October 22 2022 at 7pm. </p>
           <a href="https://zoom.us">
-          <img src="images/town_hall.png" alt="Herriman Town Hall" width= 400 />
+          <img src="images/town_hall.png" alt="Herriman Town Hall" width= 250px />
          </a>
          <p>Please join us for our community town hall meeting scheduled for Monday October 24 2022 at 7pm. You can also join via zoom as well. Click on the Town Hall Meeting image to join our community meetings every Tuesday at 7pm. 
          </p>      
@@ -92,15 +91,17 @@
         <div class="weather">
           <h3>Weather</h3>
           <picture id="weather-icon">
-            <source media="min-width: 280px)" srcset="images/sun.png" />
+            <source media= "sun" srcset="images/sun.png" width="200px" />
             <img src="images/sun.png" alt="icon of current weather" />
           </picture>
-          <p>Sunny and 61 degrees</p>
+          <p>Current temp: <span id="temp"></span></p>
+                <p>Wind speed: <span id="speed"></span></p>
+                <p>Wind chill: <span id="chill"></span></p>
         </div>
          <div class="news">
           <h2>Herriman History</h2>
           <picture>
-            <img src="images/Herriman-utah.webp" alt="Herriman Utah" width= 100% />
+            <img src="images/Herriman-utah.webp" alt="Herriman Utah" width= 600px />
           </picture>
           <div>
             <p>Herriman was the first settlement in the spring of 1851 by Henry Harriman, Thomas Butterfield and John J. Stocking. These three men built a log cabin each, fenced some land, raised a crop and called their location Butterfield Settlement. They also made a mountain road up what they called Butterfield Canyon, where they found some timber. In the fall of 1853 the settlement was strengthened by the arrival of some twenty other families. This increased the population to 71 souls. The following year a fort, enclosing 21/2 acres of ground, was built of concrete as a protection against Indians, who stole several bands of horses and cattle from the settlers. In the spring of 1853 the settlement was abandoned because of Johnston Army troubles, but was reoccupied the same year when peace was restored. Shortly afterwards the present town site was surveyed and called Herriman in honor of Henry Harriman. Since then the population has increased slowly as scarcity of water has retarded the growth of the settlement to a great extent. Leadership in Herriman settlement was first held by Henry Harriman, next Thomas Butterfield and in 1855, McGee Harris, who took charge until 1858. Alexander F. Barron served until 1861, Henry Arnold until the spring of 1866. Ensign I Stocking for ten years until 1876. Reorganized on June 17, 1877, James Crane served until July 6, 1886 when he died. William C. Crump succeeded him until 1886, Robert Danzie in 1897, James S. Crane until June 1, 1906, Thomas Butterfield, 1916 Franklin T. Crane until Dec 31, 1930.</p>
@@ -117,7 +118,7 @@
           <div class="spot">
             <h1>Top 3 Businesses in Herriman</h1>
             <picture>
-              <img src="images/fizz.webp" alt="Fizz Herriman" width= 200 />
+              <img src="images/fizz.webp" alt="Fizz Herriman" width= 300px height="auto" />
             </picture>
             <h3 class="spot-name">Fizz Drinks</h3>
             <p class="spot-description">
@@ -129,7 +130,7 @@
           </div>
           <div class="spot">
             <picture>
-              <img src="images/up_house.webp" alt="Real Up House" width= 200 />
+              <img src="images/up_house.webp" alt="Real Up House" width= 300px height="150px" />
             </picture>
             <h3 class="spot-name">The Real Up House</h3>
             <p class="spot-description">The Real Up Housem from Disney's movie Up.</p>
@@ -137,7 +138,7 @@
           </div>
           <div class="spot" id="spot3">
             <picture>
-              <img src="images/farmer_market.webp" alt="Farmers Market" width= 200 />
+              <img src="images/farmer_market.webp" alt="Farmers Market" width= 300px height="auto" />
             </picture>
             <h3 class="spot-name">Herriman Farmers Market</h3>
             <p class="spot-description">Farmers Market for Herriman Utah.</p>
@@ -149,9 +150,9 @@
         <div class="join">
           <button>Join Us!</button>
           <h2>Employment Opportunities</h2>
-        <img src="images/Herriman-police.webp" alt="employment" width= "400" />
+        <img src="images/Herriman-police.webp" alt="employment" width= "300px" />
         <p>Are you looking for a career change? Interested in working for the town of Herriman? We have several opportunities awaiting you. Please click on join us at the top to see current employment opprtunities within Herriman.</p>
-        <img src="images/herrimanpublic.webp" alt="employment" width="400" />
+        <img src="images/herrimanpublic.webp" alt="employment" width="300px" />
         <p>We offer excellent benefits with our opportunities within the City of Herriman.</p>
       </div>
     </main>
