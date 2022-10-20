@@ -192,11 +192,11 @@
    * Correct the inability to style clickable types in iOS and Safari.
    */
   
-  button,
+  /**button,
   [type="button"],
   [type="reset"],
-  [type="submit"] {
-    -webkit-appearance: button;
+  [type="submit"] 
+  
   }
   
   /**
@@ -287,16 +287,16 @@
    * 2. Correct the outline style in Safari.
    */
   
-  [type="search"] {
+  /**[type="search"] {
     -webkit-appearance: textfield; /* 1 */
-    outline-offset: -2px; /* 2 */
-  }
+    /**outline-offset: -2px; /* 2 */
+  
   
   /**
    * Remove the inner padding in Chrome and Safari on macOS.
    */
   
-  [type="search"]::-webkit-search-decoration {
+  /**[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
   }
   
@@ -305,10 +305,10 @@
    * 2. Change font properties to `inherit` in Safari.
    */
   
-  ::-webkit-file-upload-button {
+  /**::-webkit-file-upload-button {
     -webkit-appearance: button; /* 1 */
-    font: inherit; /* 2 */
-  }
+    /**font: inherit; /* 2 */
+  
   
   /* Interactive
      ========================================================================== */

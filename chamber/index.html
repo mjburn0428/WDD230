@@ -7,6 +7,7 @@
     <meta name="description" content="Herriman Chamber of Commerce" />
     <title>Herriman Chamber of Commerce</title>
     <link rel="shortcut icon" href="images/favicon.jpg">
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
@@ -78,7 +79,7 @@
           <h2>Herriman Happenings</h2>
           <picture>
             <img
-              src="images/black_ridge.png" alt="Black Ridge" width= 250px/>
+              src="images/black_ridge.png" alt="Black Ridge" width= 300px/>
           </picture>
           <p> Black Ridge Resoivor. Come out for a fun community BBQ on Saturday October 22 2022 at 7pm. </p>
           <a href="https://zoom.us">
@@ -89,7 +90,7 @@
         </div>
         
         <div class="weather">
-          <h3>Weather</h3>
+          <h2>Weather</h2>
           <picture id="weather-icon">
             <source media= "sun" srcset="images/sun.png" width="200px" />
             <img src="images/sun.png" alt="icon of current weather" />
@@ -115,32 +116,30 @@
         
         </div>
         <div class="spotlight">
-          <div class="spot">
-            <h1>Top 3 Businesses in Herriman</h1>
+          <div class="spot" id="spot">
+            <h2>Top 3 Businesses in Herriman</h2>
+            <h3>Fizz Drinks</h3>
             <picture>
-              <img src="images/fizz.webp" alt="Fizz Herriman" width= 300px height="auto" />
+              <img src="images/fizz.png" alt="Fizz Herriman" width= 300px height="auto" />
             </picture>
-            <h3 class="spot-name">Fizz Drinks</h3>
             <p class="spot-description">
-              Fizz Drinks in Herriman.
-            </p>
             <p class="spot-phone">801-432-7188</p>
             <p class="spot-location">13308 S 5600 W Herriman, UT 84096</p>
             <a href="https://fiizdrinks.com/">Fizz Drinks</a>
           </div>
-          <div class="spot">
+          <div class="spot" id="spot2">
+            <h3>The Real Up House</h3>
             <picture>
-              <img src="images/up_house.webp" alt="Real Up House" width= 300px height="150px" />
+              <img src="images/up_house.png" alt="Real Up House" width= 300px height="150px" />
             </picture>
-            <h3 class="spot-name">The Real Up House</h3>
             <p class="spot-description">The Real Up Housem from Disney's movie Up.</p>
             <a href="http://www.therealuphouse.com/">Book your photo shoot with the house from Up.</a> 
           </div>
           <div class="spot" id="spot3">
+            <h3>Herriman Farmers Market</h3>
             <picture>
-              <img src="images/farmer_market.webp" alt="Farmers Market" width= 300px height="auto" />
+              <img src="images/farmer_market.png" alt="Farmers Market" width= 300px height="auto" />
             </picture>
-            <h3 class="spot-name">Herriman Farmers Market</h3>
             <p class="spot-description">Farmers Market for Herriman Utah.</p>
             <p class="spot-phone">801-446-5323</p>
             <p class="spot-location">5373 Main Street Herriman, UT 84096</p>
@@ -148,7 +147,9 @@
           </div>
         </div>
         <div class="join">
-          <button>Join Us!</button>
+          <button>
+            <a href="https://herriman.applicantpro.com/jobs/">Join Us</a></li>
+          </button>
           <h2>Employment Opportunities</h2>
         <img src="images/Herriman-police.webp" alt="employment" width= "300px" />
         <p>Are you looking for a career change? Interested in working for the town of Herriman? We have several opportunities awaiting you. Please click on join us at the top to see current employment opprtunities within Herriman.</p>
