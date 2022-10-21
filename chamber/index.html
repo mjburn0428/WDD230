@@ -47,7 +47,7 @@
       <nav>
         <button id="hamburgerBtn">&#9776;</button>
         <ul id="primaryNav">
-          <li><a href="https://mjburn0428.github.io/WDD230/chamber/index">Main</a></li>
+          <li><a href="https://mjburn0428.github.io/WDD230/chamber/">Main</a></li>
           <li><a href="discover.html">Discover Herriman</a></li>
           <li><a href="https://mjburn0428.github.io/WDD230/">Directory</a></li>
           <li><a href="https://herriman.applicantpro.com/jobs/">Join Us</a></li>
@@ -62,8 +62,18 @@
           <div class="attention"><button id="banner"></button></div>
           <h2>Welcome to Herriman</h2>
           <picture>
-            <img src="images/Herriman-city.png" alt="Herriman City Hall" width= 500px />
-          </picture>
+            <source
+              media="(max-width:570px)"
+              srcset="images/wdd230-small"
+            />
+            <source
+              media="(max-width:1024px"
+              srcset="images/wdd230-large"
+              />
+            <img src="images/wdd230-medium.jpg" alt="Place holder image" />
+            </picture>
+            <!-- Orginal image used.
+              <img src="images/Herriman-city.png" alt="Herriman City Hall" width= 500px /> -->
           <p>Welcome to City of Herriman, Utah Chamber of Commerce page. Here you will find useful information on events and activities and employment Opportunities within Herriman town limits.</p>
           <p>We invite you to check us out and see the daily events happening in our community and within the town of Herriman.</p>
           <picture>
@@ -92,7 +102,7 @@
         <div class="weather">
           <h2>Weather</h2>
           <picture id="weather-icon">
-            <source media= "sun" srcset="images/sun.png" width="200px" />
+            <source media= "sun" srcset="images/sun.webp" width="200px" />
             <img src="images/sun.png" alt="icon of current weather" />
           </picture>
           <p>Current temp: <span id="temp"></span></p>
