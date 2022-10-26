@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/large.css" />
     <script src="js/current_date.js" defer></script>
     <script src="js/windchill.js" defer></script>
+    <script src="js/lastvisit.js" defer></script> 
   </head>
   <body>
     <header>
@@ -71,10 +72,8 @@
               media="(max-width:1024px"
               srcset="images/wdd230-large"
               />
-            <img src="images/wdd230-medium.jpg" alt="Place holder image" />
-            </picture>
-            <!-- Orginal image used.
-              <img src="images/Herriman-city.png" alt="Herriman City Hall" width= 500px /> -->
+            <!--<img src="images/wdd230-medium.jpg" alt="Place holder image" /> -->
+            <img src="images/Herriman-city.png" alt="Herriman City Hall" width= 500px /> </picture>
           <p>Welcome to City of Herriman, Utah Chamber of Commerce page. Here you will find useful information on events and activities and employment Opportunities within Herriman town limits.</p>
           <p>We invite you to check us out and see the daily events happening in our community and within the town of Herriman.</p>
           <picture>
@@ -159,7 +158,7 @@
         </div>
         <div class="join">
           <button>
-            <a href="https://herriman.applicantpro.com/jobs/">Join Us</a></li>
+            <a href="https://herriman.applicantpro.com/jobs/">Open Opportunities</a></li>
           </button>
           <h2>Employment Opportunities</h2>
         <img src="images/Herriman-police.webp" alt="employment" width= "300px" />
@@ -167,6 +166,13 @@
         <img src="images/herrimanpublic.webp" alt="employment" width="300px" />
         <p>We offer excellent benefits with our opportunities within the City of Herriman.</p>
       </div>
+      <section id="join">
+        <div id="joinButton">
+            <button>Join</button>
+            <p>Learn more about joining the chamber of commerce!</p>
+        </div>
+    </section>        
+</main>
     </main>
     <footer>
       <div class="logo">
@@ -196,7 +202,9 @@
         <h5 class="class-project">WDD 230 Project</h5>
         <div class="seperator" id="last-seperator">|</div>
         <h5 id="last-update"></h5>
+        <p id="last-visit-p"> It has been <span id="last-visit"></span> days since your last visit.</p>
       </div>
     </footer>
+  </section> 
   </body>
 </html>

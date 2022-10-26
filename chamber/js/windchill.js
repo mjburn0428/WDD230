@@ -1,16 +1,18 @@
-function windChill() {
-    let currentTemp = 40;
-    let windSpeed = 8;
-    let windChill;
+const temp = document.querySelector('#temperature');
+const speed = document.querySelector('#wind-speed');
+const chill = document.querySelector('#wind-chill');
+let tempValue = temp.innerHTML;
+let speedValue = speed.innerHTML;
+
+function windChill(t, s){
+    let c = 'NA'
+    if ( t <= 50 && s > 3.0) {
+        const r = Math.pow(s, .16);
+         let x = 35.74 + (.6215*t) - (35.75 *r) + (.4275*t*r);
+         c = Math.trunc(x)
+    }         
+    return c;
     
-    if (windSpeed > 3 && currentTemp <= 50) {
-        windChill = 35.74 + 0.6215 * currentTemp - 35.75 * windSpeed ** 0.16 + 0.4275 * currentTemp * windSpeed ** 0.16;
-    } else {
-        windChill = "NA";
-    }
-    document.getElementById("temp").innerHTML = currentTemp;
-    document.getElementById("speed").innerHTML = windSpeed;
-    document.getElementById("chill").innerHTML = windChill.toFixed(1);
 }
 
-windChill();
+chill.innerHTML= windChill(tempValue, speedValue);
