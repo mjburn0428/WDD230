@@ -95,7 +95,7 @@ header{
 }
 
 .logo{
- margin-left: 1rem;
+ margin-left: 0.5rem;
 }
 
 .logo img {
@@ -120,6 +120,28 @@ grid-column: 1;
 .headings2{    
   font-size: 0.3rem;
   margin-top: 0rem;
+}
+.attention button {
+  display: none;
+}
+.attention button.show {
+  display: inline-block;
+  margin: 0.5em;
+}
+.attention {
+  border: none;
+  text-align: center;
+}
+.event {
+  text-align: center;
+}
+.event > h4 {
+  margin: 0;
+}
+.event ul {
+  padding: 0;
+  list-style: none;
+  margin: auto;
 }
 .social{   
   margin-left: 1.5rem;
@@ -194,6 +216,19 @@ margin-right: .5rem;
   padding: 1rem;
   box-shadow: 10px 5px 5px rgb(124, 121, 121);
 } 
+
+.news {
+  text-align: center;
+  padding: 0 1em;
+}
+.news h2 {
+  color: var(--attention);
+  text-align: center;
+  margin: 0.5em;
+}
+.news p {
+  margin-top: 0.2em;
+}
 .spot img{
   max-width: 100%;
 }  
@@ -213,18 +248,17 @@ margin-right: .5rem;
   .spot a:hover {
       background-color: var(--color4);
   }
-  
-  #spot3{
-      display: none;
-  }
+
+#spot3 {
+  display: none;
+}
 footer{
   text-align: center;
   background-color: var(--back);
-  font-size: 1.0rem;
+  font-size: 0.8rem;
   place-items: center;
   
 }
-
 footer .logo img{
   max-width: 100px;
   margin-left: 1rem;
@@ -232,17 +266,14 @@ footer .logo img{
 footer .logo-label{
 margin-left:-2.0rem;
 padding-top:.3rem;
-
 }
 footer .address{
 margin-left:-2.0rem;
 font-size: 1.2rem;
 }
-
 footer .address2{
 margin-top:-1rem;
 }
-
 footer .phone{
   margin-top: 0rem;
   font-size: 1.0rem;
@@ -257,7 +288,7 @@ footer .seperator {
 .about{
   padding-top: 1.0rem;
   border-top: var(--headers) solid 1px;
-  margin: 0,1rem;
+  margin: 0.1rem;
 }
 
 .about > *{
