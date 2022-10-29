@@ -209,11 +209,12 @@
     #last-seperator{
       display: block;
     }
+    
     .discover {
         display: flex;
         flex-direction: column;
     }
     .card:hover {
-        box-shadow: 0 8px 16px 0 rgb(80, 79, 79);
+        box-shadow: 0 8px 16px 0 rgb(71, 70, 70);
       }
 }
