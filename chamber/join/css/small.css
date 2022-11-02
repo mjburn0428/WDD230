@@ -26,7 +26,7 @@
 
 form fieldset {
   margin: 5px auto;
-  border: 1px solid #5C0029;
+  border: 1px solid #a50b0b;
   background-color: #bccaca75;
   border-radius: 10px;
   padding: .5rem 2%;
@@ -35,7 +35,7 @@ form fieldset {
   
 }
 form legend {
-  color: #5C0029;
+  color: #000000;
   padding-bottom: 30px;
   font-size: 1.5em;
 }
@@ -44,7 +44,7 @@ form legend {
 form label.top, form div {
   display: block;
   padding-top: 1rem;
-  color: #5C0029;
+  color: #8a0209;
   font-size: .8rem;
   
 }
@@ -55,7 +55,7 @@ form label.top input, form label.top select form, label.textArea #describe{
   border: solid 1px #999;
   border-radius: 4px;
   padding: .75rem;
-  color: #5C0029;
+  color: #9e0303;
   width: 90%;
   max-width: 350px;
   background-color: white;
@@ -64,19 +64,19 @@ form label.top input, form label.top select form, label.textArea #describe{
 form label.sbs {
   display: block;
   padding: 0 .75rem;
-  color: #555;
+  color: rgb(184, 0, 0);
   
 }
 form p.sbs {
   display: block;
   padding:  .75rem;
-  color: #555;
+  color: rgb(230, 10, 10);
   
 }
 
 form input.submitBtn {
   border: none;
-  background-color: #5C0029;
+  background-color: #880404;
   color: white;
   border-radius: 1rem;
   padding: .75rem 1.5rem;
@@ -159,6 +159,7 @@ nav ul {
 nav ul.open {
   display: block;
 }
+
 
 
 header footer{
