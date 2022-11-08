@@ -23,6 +23,7 @@
 }
 
 
+
 a:link {
   color: var(--color6);
 }
@@ -79,7 +80,6 @@ nav ul {
 nav ul.open {
   display: block;
 }
-
 
 
 header footer{
@@ -208,15 +208,23 @@ margin-right: .5rem;
   display: none;
 }
 .join button {
-  background-color: var(--color1);
-  color: var(--color5);
+  background-color: var(--main);
+  color: var(--attention);
   font-size: 2rem;
   border-radius: 15px;
   border: 1px solid rgba(0, 0, 0, 0.5);
   padding: 1rem;
   box-shadow: 10px 5px 5px rgb(124, 121, 121);
-} 
-
+}
+.join_2 button{
+  background-color: var(--attention);
+  color: var(--color6);
+  font-size: 2rem;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  box-shadow: 10px 5px 5px rgb(124,121,121)
+}
 .news {
   text-align: center;
   padding: 0 1em;
@@ -228,6 +236,13 @@ margin-right: .5rem;
 }
 .news p {
   margin-top: 0.2em;
+}
+.spot {
+  height: 600px;
+  padding: 0px;
+  margin: 10px auto;
+  text-align: center;
+  max-width: 100px;
 }
 .spot img{
   max-width: 100%;
