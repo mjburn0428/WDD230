@@ -22,6 +22,85 @@
   --nav-link-color: var(--attention);
 }
 
+/*------ FORM ------*/
+
+form fieldset {
+  margin: 5px auto;
+  border: 1px solid #ffffff;
+  background-color: #bccaca75;
+  border-radius: 10px;
+  padding: .5rem 2%;
+  text-align: left;
+  max-width: 400px;
+  
+}
+form legend {
+  color: #000000;
+  padding-bottom: 30px;
+  font-size: 1.5em;
+}
+
+
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #000000;
+  font-size: .8rem;
+  
+}
+
+form label.top input, form label.top select form, label.textArea #describe{
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #060303;
+  width: 90%;
+  max-width: 350px;
+  background-color: rgb(235, 230, 230);
+}
+
+form label.sbs {
+  display: block;
+  padding: 0 .75rem;
+  color: rgb(12, 2, 2);
+  
+}
+form p.sbs {
+  display: block;
+  padding:  .75rem;
+  color: rgb(17, 1, 1);
+  
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #0006ad;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 100%;
+  max-width: 20rem;
+  margin-top: 5px;
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+
+.thanks {
+  display: block;
+  text-align: center;
+  background-color: #079c6da7;
+  margin: 0 auto;
+}
 
 
 a:link {
@@ -80,6 +159,7 @@ nav ul {
 nav ul.open {
   display: block;
 }
+
 
 
 header footer{
@@ -208,23 +288,15 @@ margin-right: .5rem;
   display: none;
 }
 .join button {
-  background-color: var(--main);
-  color: var(--attention);
+  background-color: var(--color1);
+  color: var(--color5);
   font-size: 2rem;
   border-radius: 15px;
   border: 1px solid rgba(0, 0, 0, 0.5);
   padding: 1rem;
   box-shadow: 10px 5px 5px rgb(124, 121, 121);
-}
-.join_2 button{
-  background-color: var(--attention);
-  color: var(--color6);
-  font-size: 2rem;
-  border-radius: 2px;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  padding: 1rem;
-  box-shadow: 10px 5px 5px rgb(124,121,121)
-}
+} 
+
 .news {
   text-align: center;
   padding: 0 1em;
@@ -236,13 +308,6 @@ margin-right: .5rem;
 }
 .news p {
   margin-top: 0.2em;
-}
-.spot {
-  height: 600px;
-  padding: 0px;
-  margin: 10px auto;
-  text-align: center;
-  max-width: 100px;
 }
 .spot img{
   max-width: 100%;
@@ -345,4 +410,26 @@ footer .seperator {
   padding: 5rem;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, san-serif;
+}
+.history, .herriman-church, .lost-house, .herriman-farm, .today {
+  display: inline-block;
+  margin: 5px;
+  height: auto;
+  background-color: #025e64a7;
+  font-size: 18px;
+} 
+
+.history img, .herriman-church img, .lost-house img, .herriman-farm img, .today img {
+  width: 55%
+}
+
+.preFooter {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: #079c6da7;
+}
+.display-none {
+  display: none;
+
 }
