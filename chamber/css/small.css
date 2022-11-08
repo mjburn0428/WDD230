@@ -208,7 +208,7 @@ margin-right: .5rem;
   display: none;
 }
 .join button {
-  background-color: var(--main);
+  background-color: var(--color2);
   color: var(--attention);
   font-size: 2rem;
   border-radius: 15px;
