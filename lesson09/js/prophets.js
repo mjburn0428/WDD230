@@ -1,7 +1,6 @@
-const requestURL = 'https://mjburn0428.github.io/WDD230/lesson09/latter-day-prophets.json';
+const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 const cards = document.querySelector('.cards');
 
-`Welcome back ${firstName}! You last visited on <strong>${lvdate}</strong>.`
 
 fetch('latter-day-prophets.json')
   .then(function (response) {
