@@ -14,7 +14,7 @@
         "business": "Ace Hardware of Herriman",
         "contact": "Stewart, Mark and Tyson",
         "phonenumber": "(435)828-5374",
-        "email": "unknown",
+        "email": "",
         "website": "http://www.acehardware.com",
         "imageurl": "https://mjburn0428.github.io/WDD230/chamber/images/1024px-Ace_Hardware_Logo.png",
         "membership": "Silver"
@@ -25,7 +25,7 @@
         "contact": "Viviana Aguilar",
         "phonenumber": "(801)946-2772",
         "email": "",
-        "website": "",
+        "website": "https://www.barbercogg.com/",
         "imageurl": "https://mjburn0428.github.io/WDD230/chamber/images/BARBERCOGG.png",
         "membership": "Bronze"
       },
@@ -35,7 +35,7 @@
         "contact": "Justin Dansie",
         "phonenumber": "(801)440-5520",
         "email": "",
-        "website": "",
+        "website": "https://www.coppermountaindental.com/",
         "imageurl": "https://mjburn0428.github.io/WDD230/chamber/images/CPD_logo.webp",
         "membership": "Silver"
       },
@@ -45,17 +45,17 @@
         "contact": "Lynette Layman",
         "phonenumber": "(801)302-1535",
         "email": "",
-        "website": "",
+        "website": "https://salons.greatclips.com/us/ut/herriman/5534-w-13400-s",
         "imageurl": "https://mjburn0428.github.io/WDD230/chamber/images/Great_Clips_logo.png",
         "membership": "Gold"
       },
 
       {
-        "business": "James Case Insurance Services",
+        "business": "James Case Insurance Services, Insurance Marketplace",
         "contact": "James Case",
         "phonenumber": "(801)5808772",
         "email": "",
-        "website": "",
+        "website": "https://insurancemarketplaceutah.com/",
         "imageurl": "https://mjburn0428.github.io/WDD230/chamber/images/Travelers_Case.png",
         "membership": "Silver"
       },
@@ -65,7 +65,7 @@
         "contact": "Robert Christensen",
         "phonenumber": "(801)707-8102",
         "email": "",
-        "website": "",
+        "website": "https://www.intermountaintirepros.com/",
         "imageurl": "https://mjburn0428.github.io/WDD230/chamber/images/Tire_Pros.png",
         "membership": "Gold"
       },
@@ -75,8 +75,8 @@
         "contact": "Jason Ellery",
         "phonenumber": "(801)910-4047",
         "email": "",
-        "website": "",
-        "imageurl": "https://mjburn0428.github.io/WDD230/chamber/images/Trailer_logo.png",
+        "website": "https://a1trailerrepairandwelding.com/",
+        "imageurl": "https://mjburn0428.github.io/WDD230/chamber/images/Trailer_logo.webp",
         "membership": "Silver"
       },
 
@@ -85,8 +85,8 @@
         "contact": "Ryan Humphrey",
         "phonenumber": "(801)253-2515",
         "email": "",
-        "website": "",
-        "imageurl": "https://mjburn0428.github.io/WDD230/chamber/images/A_plus_Logo.png",
+        "website": "https://utahgaragedoors.net/",       
+        "imageurl": "https://mjburn0428.github.io/WDD230/chamber/images/a-plus-garage-doors-logo.webp",
         "membership": "Gold"
       }
       
