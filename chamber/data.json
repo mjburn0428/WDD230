@@ -1,0 +1,95 @@
+{
+    "businesses": [
+      {
+        "business": "Fizz Drinks",
+        "contact": "Jana Jensen & Jasmine Roberts",
+        "phonenumber": "(801)432-7188 & (801)367-8810",
+        "email": "owner@fizzdrinks.com",
+        "website": "https://www.fizzdrinks.com/",
+        "imageurl": "https://mjburn0428.github.io/wdd230/chamber/images/logo-fizz-july-2020.png",
+        "membership": "Bronze"
+      },
+
+      {
+        "business": "Ace Hardware of Herriman",
+        "contact": "Stewart, Mark and Tyson",
+        "phonenumber": "(435)828-5374",
+        "email": "unknown",
+        "website": "http://www.acehardware.com",
+        "imageurl": "https://mjburn0428.github.io/wdd230/chamber/images/",
+        "membership": "Silver"
+      },
+
+      {
+        "business": "BarberCo Gentlemen's Grooming",
+        "contact": "Viviana Aguilar",
+        "phonenumber": "(801)946-2772",
+        "email": "",
+        "website": "",
+        "imageurl": "https://mjburn0428.github.io/wdd230/chamber/images/",
+        "membership": "Bronze"
+      },
+
+      {
+        "business": "Copper Mountain Dental",
+        "contact": "Justin Dansie",
+        "phonenumber": "(801)440-5520",
+        "email": "",
+        "website": "",
+        "imageurl": "https://mjburn0428.github.io/wdd230/chamber/images/",
+        "membership": "Silver"
+      },
+
+      {
+        "business": "Great Clips",
+        "contact": "Lynette Layman",
+        "phonenumber": "(801)302-1535",
+        "email": "",
+        "website": "",
+        "imageurl": "https://mjburn0428.github.io/wdd230/chamber/images/",
+        "membership": "Gold"
+      },
+
+      {
+        "business": "James Case Insurance Services",
+        "contact": "James Case",
+        "phonenumber": "(801)5808772",
+        "email": "",
+        "website": "",
+        "imageurl": "https://mjburn0428.github.io/wdd230/chamber/images/",
+        "membership": "Silver"
+      },
+
+      {
+        "business": "Thatcher Christensen LLC, Intermountain Tire Pros",
+        "contact": "Robert Christensen",
+        "phonenumber": "(801)707-8102",
+        "email": "",
+        "website": "",
+        "imageurl": "https://mjburn0428.github.io/wdd230/chamber/images/",
+        "membership": "Gold"
+      },
+
+      {
+        "business": "A1 Trailer Repair & Welding",
+        "contact": "Jason Ellery",
+        "phonenumber": "(801)910-4047",
+        "email": "",
+        "website": "",
+        "imageurl": "https://mjburn0428.github.io/wdd230/chamber/images/",
+        "membership": "Silver"
+      },
+
+      {
+        "business": "A Plus Garage Door",
+        "contact": "Ryan Humphrey",
+        "phonenumber": "(801)253-2515",
+        "email": "",
+        "website": "",
+        "imageurl": "https://mjburn0428.github.io/wdd230/chamber/images/",
+        "membership": "Gold"
+      }
+      
+
+    ]
+}
