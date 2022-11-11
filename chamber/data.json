@@ -4,7 +4,7 @@
         "business": "Fizz Drinks",
         "contact": "Jana Jensen & Jasmine Roberts",
         "phonenumber": "(801)432-7188 & (801)367-8810",
-        "email": "owner@fizzdrinks.com",
+        "email": "",
         "website": "https://www.fizzdrinks.com/",
         "imageurl": "https://mjburn0428.github.io/WDD230/chamber/images/fizz_logo.png",
         "membership": "Bronze"
@@ -45,7 +45,7 @@
         "contact": "Lynette Layman",
         "phonenumber": "(801)302-1535",
         "email": "",
-        "website": "https://salons.greatclips.com/us/ut/herriman/5534-w-13400-s",
+        "website": "https://salons.greatclips.com",
         "imageurl": "https://mjburn0428.github.io/WDD230/chamber/images/Great_Clips_logo.png",
         "membership": "Gold"
       },
@@ -56,7 +56,7 @@
         "phonenumber": "(801)5808772",
         "email": "",
         "website": "https://insurancemarketplaceutah.com/",
-        "imageurl": "https://mjburn0428.github.io/WDD230/chamber/images/Travelers_Case.png",
+        "imageurl": "https://mjburn0428.github.io/WDD230/chamber/images/Insurance-Marketplace-Logo.png",
         "membership": "Silver"
       },
 
