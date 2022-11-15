@@ -1,0 +1,32 @@
+@media only screen and (min-width: 36rem) {
+    
+    .weather {margin: 10px 0px 10px 10px; 
+        grid-column: 3;
+        grid-row: 5;
+    }   
+    .weather h3{
+    grid-column: 3/3;
+    grid-row: 2/3;
+    text-align: center;
+    margin:0;
+    padding:10px;
+    margin-right: 0px;
+}
+    .weather img {
+        max-width: 100px;
+        width: 80px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        
+    }
+    
+    footer div:nth-child(1) {
+        display: flex;
+        
+    }
+
+    footer div:nth-child(1) img, footer div:nth-child(1) p {
+        margin: auto
+    }
+}

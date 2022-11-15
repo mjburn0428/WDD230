@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans&display=swap');
+
+.weather-api {
+    display: block;
+    background-color: #06ccd3a7;
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+
+}
