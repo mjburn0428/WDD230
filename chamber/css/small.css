@@ -134,11 +134,6 @@ h6 {
 }
 
 body {
-  max-width: 1000px;
-  font-family: 'Cambria', sans-serif;
-  font-size: 16px;
-	text-align: center;
-  margin: 10px auto;
   background-color: var(--main);
   margin: 2em;
 }
@@ -170,8 +165,6 @@ nav ul {
 
 nav ul.open {
   display: block;
-  background-color: var(--color6);
-  
 }
 
 
@@ -240,14 +233,14 @@ grid-column: 1;
   margin-left: 1.5rem;
 }
 #facebook{
-  grid-row:2;
-  grid-column: 5;
+  grid-row:1;
+  grid-column: 3;
   margin-left: .5rem;
   text-align: right;
 }
 #instagram{
-  grid-row:2;
-  grid-column: 5;
+  grid-row:1;
+  grid-column: 4;
   margin-left: .5rem;
   text-align: left;
 }
@@ -255,18 +248,36 @@ grid-column: 1;
    max-width: 40px;
   border-radius: 15px;
 }
-nav{
-grid-row:1;
-grid-column: 5;
-text-align: center;
+nav ul {
+  color: white;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
-#hamburgerBtn{
-background-color: var(--color4);
-padding: 1.0em;
-margin-left: .5rem;
-margin-right: .5rem;
 
+nav ul li a {
+  display: block;
+  padding: .8rem 2vw;
+  text-decoration: none;
+  color: rgb(197, 12, 12);
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: var(--color7);
 }
+nav ul li a:hover {  
+  background-color: var(--color2);
+}
+
+
+nav ul {
+  display: none;
+}
+
+nav ul.open {
+  display: block;
+  background-color: var(--color6);
+  
+}
+
 
 .headerDate{
   grid-row: 3;
