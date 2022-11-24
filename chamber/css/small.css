@@ -134,6 +134,11 @@ h6 {
 }
 
 body {
+  max-width: 1000px;
+  font-family: 'Cambria', sans-serif;
+  font-size: 16px;
+	text-align: center;
+  margin: 10px auto;
   background-color: var(--main);
   margin: 2em;
 }
@@ -165,6 +170,8 @@ nav ul {
 
 nav ul.open {
   display: block;
+  background-color: var(--color6);
+  
 }
 
 
@@ -233,14 +240,14 @@ grid-column: 1;
   margin-left: 1.5rem;
 }
 #facebook{
-  grid-row:1;
-  grid-column: 3;
+  grid-row:2;
+  grid-column: 5;
   margin-left: .5rem;
   text-align: right;
 }
 #instagram{
-  grid-row:1;
-  grid-column: 4;
+  grid-row:2;
+  grid-column: 5;
   margin-left: .5rem;
   text-align: left;
 }
