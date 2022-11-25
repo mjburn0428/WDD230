@@ -1,28 +1,39 @@
 @media only screen and (min-width: 36rem) {
-
-  main {display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .hero {
-      grid-column: span 3;
-      margin: 10px 0px;
-      grid-row: 1;
+  
+  .logo {
+    margin-left: 1vw;
   }
-  .news {
-    margin: 10px 0px;
+  .logo-container{
+    height: 60px;
+    max-width: 60px;
+    display: block;
+      }
+  header .logo img {       
+      min-width: 50px;        
+  }
+  .headings1{
+      font-size: 1rem;
+      text-align: left;
+  }
+  .headings2{
+      font-size: 1rem;
+      margin-top: 0rem;
+  }
+  #hamburgerBtn {
+    color:black;
+      text-align: right;
+      margin-right: 1rem;
+  }
+  .hero {
     grid-column: span 3;
-    grid-row: 2;
-    max-width: 1000px;
+    margin: 10px 0px;
+    grid-row: 1;
 }
-.event {
-  margin: 10px 10px 10px 0px;
-  grid-column: span 2;
-  grid-row: 5;
+  .event {
+    display: inline-block;
   }
 
-  .weather {
-    margin: 10px 0px 10px 10px; 
+  .weather {margin: 10px 0px 10px 10px; 
     grid-column: 3;
     grid-row: 5;
 }   
@@ -127,8 +138,9 @@ margin-right: 0px;
         display: grid;
         grid-template-columns: repeat(2, 300px);
         column-gap: 2rem;
-        box-shadow: 0px 0px 5px 5px #5c5759;
-  } 
+    
+    }
+  }
 
 .joinPage {
   display: block;
@@ -147,7 +159,7 @@ form label.top input, form label.top select form, label.textArea #describe{
  /*directory*/
   
  div.cards section:hover {
-  box-shadow: 0px 0px 5px 5px #989395;
+  box-shadow: 0px 0px 5px 5px #5C0029;
 } 
 
 
@@ -182,6 +194,4 @@ form label.top input, form label.top select form, label.textArea #describe{
 
 .grid section img {
   max-height: 70px;
-
-}
 }
