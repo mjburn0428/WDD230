@@ -2,6 +2,7 @@
     header {
       grid-template-columns: 1fr 1fr 1fr;
     }
+    
     a:link {
         color: var(--headers);
     }
@@ -21,6 +22,12 @@
         grid-template-rows: repeat(3, auto);
         font-size: 1.0rem;
         
+    }
+    .headerLogo {
+        width: 180px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
     }
     .headings1 {
         font-size: 1.28rem;
@@ -93,7 +100,7 @@
       .hero > img {
         max-width: none;
         width: 100%;
-        height: 100%;
+        height: 5%;
         object-fit: cover;
         overflow: hidden;
       }
@@ -126,6 +133,7 @@
     }
   
     .news {
+        margin: 0 10px;
         grid-row: 3;
         grid-column: 2;
         font-size: 1.0rem;
@@ -227,9 +235,10 @@
     }
     
     .discover {
-        display: flex;
-        flex-direction: column;
-    }
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: none;
+}
+
     .card:hover {
         box-shadow: 0 8px 16px 0 rgb(71, 70, 70);
       }
